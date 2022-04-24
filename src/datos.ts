@@ -1,5 +1,5 @@
 let btnEnv = document.getElementById("btnEnviar");
-let dato = document.getElementById("dato1");
+let dato = document.getElementById("dato");
 let rotulo = document.getElementById("rotulo");
 
 btnEnv.addEventListener("click", () => {
@@ -7,3 +7,4 @@ btnEnv.addEventListener("click", () => {
   console.log("el dato ingresado es ", dato.value);
   //}
 });
+rotulo.innerHTML = "Ingrese un dato:";
