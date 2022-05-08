@@ -1,7 +1,15 @@
-let rotulo = document.getElementById("rotulo");
-
+let rotulo = document.getElementById("rotulo"); 
+/*
+ Busca un Elemento HTML con el id que tiene el valor "rotulo" y
+ asigna ese Elemento HTML a una variable cuyo nombre de variable elegí sea "rotulo"
+ (podría ser cualquier otro nombre de variable)
+ El Elemento HTML en particular es un <div>, clasificado como Contenedor
+*/
 rotulo.innerHTML = "Ingrese el número: ";
-
+/*
+ Carga el HTML "Ingrese el número: " dentro del contenedor
+ referenciado con la variable de nombre "rotulo"
+*/
 let dato = document.getElementById("dato");
 
 let btnEnv = document.getElementById("btnEnviar");
