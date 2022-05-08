@@ -4,3 +4,6 @@ a {
 td {
   min-width: 10px;
 }
+body {
+  font-family: sans-serif;
+}
