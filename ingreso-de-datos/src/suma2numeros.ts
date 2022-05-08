@@ -8,12 +8,13 @@ rotulo2.innerHTML = "Ingrese el segundo número: ";
 
 let dato1 = document.getElementById("dato1");
 let dato2 = document.getElementById("dato2");
+let btnEnv = document.getElementById("btnEnviar");
 
-let primerNumero: number = Number(dato1.value);
-console.log("el primer número es ", primerNumero);
-
-let segundoNumero: number = Number(dato2.value);
-console.log("el segundo número es ", segundoNumero);
-
-let resultado: number = primerNumero + segundoNumero;
-console.log("El resultado de la suma es ", resultado);
+btnEnv.addEventListener("click", () => {
+  let primerNumero: number = Number(dato1.value);
+  console.log("el primer número es ", primerNumero);
+  let segundoNumero: number = Number(dato2.value);
+  console.log("el segundo número es ", segundoNumero);
+  let resultado: number = primerNumero + segundoNumero;
+  console.log("El resultado de la suma es ", resultado);
+});
