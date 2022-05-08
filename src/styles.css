@@ -1,3 +1,6 @@
 a {
   color: blue;
 }
+td {
+  min-width: 10px;
+}
