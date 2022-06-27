@@ -7,3 +7,14 @@ td {
 body {
   font-family: sans-serif;
 }
+.bloque1 {
+  background-color: yellow;
+  border: solid 4px black;
+}
+.inline1 {
+  font-style: italic;
+  font-weight: bold;
+}
+.inline2 {
+  color: red;
+}
